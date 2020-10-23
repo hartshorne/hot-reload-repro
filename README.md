@@ -1,5 +1,7 @@
 ## 🚀 Hot reload reload
 
+Issue: https://github.com/gatsbyjs/gatsby/issues/27626
+
 Run:
 
 ```bash
@@ -20,7 +22,7 @@ If you save the file again, or `touch src/pages/index.js`, hot reload will work 
 Maybe there is a weird interaction/race with `.linaria-cache/src/pages/index.linaria.css`?
 
 Related issues:
-
 - https://github.com/gatsbyjs/gatsby/issues/26192
+- https://github.com/gatsbyjs/gatsby/issues/26580
 - https://github.com/callstack/linaria/issues/682
 - https://github.com/callstack/linaria/issues/642
